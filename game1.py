@@ -8,9 +8,9 @@ while (guess != secret) and (times > 0):
     while not temp.isdigit():
         temp = input("抱歉，您的输入有误，请输入一个整数：")
     guess = int(temp)
-    times = times - 1 # 用户每输入一次，可用机会就-1
+    times = times - 1  # 用户每输入一次，可用机会就-1
     if guess == secret:
-        print("猜对了！真棒")
+        print("猜对了！真棒") 
     else:
         if guess > secret:
             print("猜的数字太大了")

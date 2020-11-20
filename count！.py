@@ -14,6 +14,7 @@ def count(*temp):
                 num += 1
             else:
                 others += 1
-        print('第 %d 个字符串共有:英文字母 %d 个，数字 %d 个，空格 %d 个，其他字符 %d 个'% (i + 1 ,word ,num ,space ,others))
+        print('第 %d 个字符串共有:英文字母 %d 个，数字 %d 个，空格 %d 个，其他字符 %d 个' % (i + 1, word, num, space, others))
 
-count('I Love you','1234 34 565 667 78','Just smile 12345!!!!!')
+
+count('I Love you', '1234 34 565 667 78', 'Just smile 12345!!!!!')
