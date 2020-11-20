@@ -3,7 +3,7 @@ import random
 
 secret = random.randint(1, 10)
 print('请输入一个整数【1,10】：')
-
+guess = 0
 while guess != secret:
     temp = input()
     try:
