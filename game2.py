@@ -10,6 +10,7 @@ while guess != secret:
         guess = int(temp)
     except ValueError as reason:
         print('请输入正确的整数！')
+        break
     if guess == secret:
         print('猜对了！真棒')
     elif guess > secret:
