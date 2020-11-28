@@ -2,7 +2,7 @@ from numpy import *
 import numpy as np
 
 
-class ThreshClassifier():
+class ThreshClassifier:
     def __init__(self):
         self.v = 0
         self.direction = 0
@@ -31,8 +31,7 @@ class ThreshClassifier():
             return ((x > self.v) - 0.5)*2
 
 
-
-class AdaBoost():
+class AdaBoost:
     def __init__(self, classifier=ThreshClassifier):
         self.classifier = classifier
         self.classifiers = []
